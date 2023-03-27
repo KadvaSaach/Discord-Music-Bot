@@ -10,8 +10,8 @@ const TOKEN = process.env.TOKEN;
 
 const LOAD_SLASH = process.argv[2] == 'load';
 
-const CLIENT_ID = '971375477866520627';
-const GUILD_ID = '729324715843518474';
+const CLIENT_ID = '';
+const GUILD_ID = '';
 
 const client = new Discord.Client({
   intents: ['GUILDS', 'GUILD_VOICE_STATES'],
